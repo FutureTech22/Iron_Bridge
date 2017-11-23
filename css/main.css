@@ -50,3 +50,10 @@ body {
   background-image: url("https://storywithoutaplot.files.wordpress.com/2012/12/desktop.jpg");
   height: 1200px;
   background-repeat: no-repeat; }
+
+span#typed {
+  color: white;
+  margin-left: 65%;
+  font-size: 55px;
+  text-shadow: -2px 0px  #A9A9A9;
+  display: block; }

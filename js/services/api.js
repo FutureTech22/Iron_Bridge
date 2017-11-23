@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('shopular')
+        .module('portfolio')
         .factory('API', function($http) {
 
            
