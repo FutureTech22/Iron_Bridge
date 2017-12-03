@@ -57,3 +57,13 @@ span#typed {
   font-size: 55px;
   text-shadow: -2px 0px  #A9A9A9;
   display: block; }
+
+#contactForm {
+  background-color: #3b3b3b;
+  height: 230px; }
+  #contactForm h3 {
+    text-align: center;
+    font-size: 35px;
+    color: white; }
+  #contactForm p {
+    color: white; }
