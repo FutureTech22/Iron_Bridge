@@ -65,5 +65,9 @@ span#typed {
     text-align: center;
     font-size: 35px;
     color: white; }
-  #contactForm p {
+  #contactForm label i {
     color: white; }
+  #contactForm label p {
+    color: white;
+    width: 100%;
+    text-align: center; }
