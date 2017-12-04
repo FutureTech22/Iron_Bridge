@@ -58,16 +58,29 @@ span#typed {
   text-shadow: -2px 0px  #A9A9A9;
   display: block; }
 
+.typed-wrap {
+  height: 375px; }
+
 #contactForm {
   background-color: #3b3b3b;
-  height: 230px; }
+  height: 230px;
+  padding-top: 5px; }
   #contactForm h3 {
     text-align: center;
     font-size: 35px;
-    color: white; }
-  #contactForm label i {
-    color: white; }
-  #contactForm label p {
     color: white;
-    width: 100%;
-    text-align: center; }
+    margin-bottom: 20px; }
+  #contactForm input {
+    margin-bottom: 25px; }
+  #contactForm label {
+    color: white;
+    margin-bottom: 10px; }
+  #contactForm button {
+    color: white;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #bb1616;
+    border: none;
+    margin: 0px auto;
+    display: block; }

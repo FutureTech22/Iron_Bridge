@@ -29,41 +29,41 @@
         </nav>
     </header>
     <h2> Building bridges to support digital infrastructure and bring your business into the 21st century</h2>
+
     <div id="typed-strings">
         <p>Digital Marketing</p>
         <p>Social-Media Marketing</p>
         <p>S.E.O.</p>
         <p>Content Marketing</p>
     </div>
-    <span id="typed"></span>
-
-    <div id = "contactForm">
-        <h3>find out how we can revolutionize your business</h3>
-
-        <label>
-            <i class="fa fa-user"></i>
-            <p> First Name </p>
-        </label>
-        <input  type="text">
-
-        <label>
-            <i class="fa fa-user"></i>
-            <p class='col-md-3'> Last Name </p>
-        </label>
-        <input type="text">
-
-        <label>
-            <i class="fa fa-user"></i>
-            <p class='col-md-3'> Email </p>
-        </label>
-        <input type="text">
-
-        <label>
-            <i class="fa fa-user"></i>
-            <p class='col-md-3'> Phone # </p>
-        </label>
-        <input type="text">
+    <div class="typed-wrap">
+        <span id="typed"></span>
     </div>
+
+    <div id ="contactForm">
+            <h3>find out how we can revolutionize your business</h3>
+
+        <div class="form-group">
+            <div class="col-sm-6 col-md-3">
+                <label><i class="fa fa-user"></i> first name:</label>
+                <input type="text" value="" pattern="[A-Za-z]{1,20}" placeholder="Ex: John" maxlength="100" class="form-control" name="firstname" id="lp-firstname" required>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <label><i class="fa fa-user"></i> last name:</label>
+                <input type="text" value="" pattern="[A-Za-z]{1,20}" placeholder="Ex: Smith" maxlength="100" class="form-control" name="lastname" id="lp-lastname" required>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <label><i class="fa fa-envelope"></i> email:</label>
+                <input type="email" value="" placeholder="Ex: john@johnsmith.com" maxlength="100" class="form-control" name="email" id="lp-email" required>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <label><i class="fa fa-phone"></i>phone:</label>
+                <input type="tel" name="phone" value="" placeholder="Ex: 800-875-2129" maxlength="100" class="form-control" name="phone" id="lp-phone" required>
+            </div>
+
+            <button>Click here for your free consultation!</button>
+        </div>
+        </div> 
 
     <main>
         <footer>
